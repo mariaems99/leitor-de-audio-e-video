@@ -14,7 +14,7 @@ Este projeto é uma página simples em HTML que permite reproduzir **vídeos** e
 
 ## Estrutura do código
 <small>
-- `index.html`: contém a estrutura da página.  
+- index.html: contém a estrutura da página.  
   - `<video>`: elemento para reprodução de vídeo.  
   - `<audio>`: elemento para reprodução de áudio.  
   - `<section>`: organiza cada parte (vídeo e áudio).  
