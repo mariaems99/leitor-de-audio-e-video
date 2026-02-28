@@ -1,27 +1,34 @@
-🎥 ##Leitor de Áudio e Vídeo HTML5
-Este é um projeto simples e funcional de uma página web desenvolvida para a execução de arquivos de mídia (áudio e vídeo) utilizando as tags nativas do HTML5.
+# Leitor de Áudio e Vídeo
 
-🚀## Tecnologias Utilizadas
-HTML5: Estruturação da página e implementação dos elementos <video> e <audio>.
+<small>
+Este projeto é uma página simples em HTML que permite reproduzir **vídeos** e **áudios** diretamente no navegador.
+</small>
 
-📋 ##Funcionalidades
-Player de Vídeo: Com controles de reprodução (play, pause, volume e tela cheia).
+## Funcionalidades
+<small>
+- Exibição de um vídeo com controles de reprodução.  
+- Reprodução de áudio com opção de loop.  
+- Estrutura organizada em seções para vídeo e áudio.  
+</small>
 
-Player de Áudio: Com controles de reprodução e suporte ao atributo loop (reprodução contínua).
+## Estrutura do código
+<small>
+- `index.html`: contém a estrutura da página.  
+  - `<video>`: elemento para reprodução de vídeo.  
+  - `<audio>`: elemento para reprodução de áudio.  
+  - `<section>`: organiza cada parte (vídeo e áudio).  
+</small>
 
-Design Semântico: Uso de tags como <section>, <h1> e <h2> para melhor acessibilidade e SEO.
+## Exemplo de uso
+<small>
+Ao abrir o arquivo `index.html` em um navegador, você verá:  
+- Um título principal: **Leitor de áudio e vídeo**  
+- Uma seção de vídeo com um arquivo MP4.  
+- Uma seção de áudio com a música *Beyoncé - BIGGER*.  
+</small>
 
-📁 ##Estrutura do Arquivo
-
-Seção de Vídeo: Renderiza o arquivo mp4 com largura definida e controles ativos.
-
-Seção de Áudio: Executa a faixa "Beyoncé - BIGGER" com a função de repetição automática ativada.
-
-⚙️ ##Como executar
-Clone este repositório ou baixe o arquivo .html.
-
-Certifique-se de que os arquivos de mídia (.mp4 e .mp3) estejam na mesma pasta do arquivo index.html.
-
-Abra o arquivo index.html em qualquer navegador moderno (Chrome, Edge, Firefox, etc.).
-
-No VS Code: Você pode usar a extensão Live Server para visualizar as alterações em tempo real.
+## Tecnologias utilizadas
+<small>
+- HTML5  
+- Tags `<video>` e `<audio>` para mídia.  
+</small>
